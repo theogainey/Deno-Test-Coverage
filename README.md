@@ -19,13 +19,7 @@ script can also added to a project via a command line
 curl -sL https://raw.githubusercontent.com/theogainey/Deno-Test-Coverage/main/coverage.sh -o coverage.sh
 ```
 
-Next be sure the script is executable
-
-```
-chmod +x coverage.sh
-```
-
-after adding the executable script to a project a test coverage report can
+after adding the script to a project a test coverage report can
 generated with
 
 ```
