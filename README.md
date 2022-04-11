@@ -20,19 +20,19 @@ to install any dependencies, just open a command line where you would normally
 run `deno test` and use the following code.
 
 ```
-deno run --allow-run --allow-read --allow-write https://raw.githubusercontent.com/theogainey/Deno-Test-Coverage/main/coverage.ts
+deno run --allow-run --allow-read --allow-write https://deno.land/x/simple_coverage@v1.0.1/coverage.ts
 ```
 
 or
 
 ```
-deno run --allow-all https://raw.githubusercontent.com/theogainey/Deno-Test-Coverage/main/coverage.ts
+deno run --allow-all https://deno.land/x/simple_coverage@v1.0.1/coverage.ts
 ```
 
 Additionally pass `open` as an argument to open the coverage report
 
 ```
-deno run --allow-all https://raw.githubusercontent.com/theogainey/Deno-Test-Coverage/main/coverage.ts open
+deno run --allow-all https://deno.land/x/simple_coverage@v1.0.1/coverage.ts open
 ```
 
 ### Bash
